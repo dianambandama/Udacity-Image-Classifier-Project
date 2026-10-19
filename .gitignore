@@ -1,3 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+
+# Dataset and generated model outputs
+flowers/
+data/
+checkpoints/
+*.pth
+*.pt
+*.metrics.json
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# CUDA build artifacts
 *.i
 *.ii
 *.gpu
